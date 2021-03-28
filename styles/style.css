@@ -141,10 +141,6 @@
   width: 60%;
   margin-bottom: 20px;
   position: relative;
-  /*justify-content: center;*/
-  /*line-height: 1.15;*/
-  /*font-size: 60px;*/
-  /*font-weight: bold;*/
 }
 
 .section-title__text {
@@ -208,6 +204,49 @@
 
 .table__text:nth-of-type(2) {
 margin-top: 20px;
+}
+
+.feynman {
+  height: 790px;
+  background-image: url("../images/feynman.png");
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.feynman-title {
+  width: 648px;
+  margin: 100px auto 70px;
+}
+
+.feynman-title__text {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.feynman-subtitle_text {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.feynman-link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 div {
