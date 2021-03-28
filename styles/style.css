@@ -297,6 +297,21 @@ margin-top: 20px;
   z-index: -1;
 }
 
+.footer {
+  min-height: 350px;
+  flex-basis: 711px;
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  position: relative;
+}
+
+.footer__columns {
+  display: flex;
+  width: 90%;
+  margin: 60px auto 40px;
+}
+
 div {
   border: 2px solid red;
 }
