@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo__place_header {
+.logo_place_header {
   width: 183px;
   height: 32px;
   position: absolute;
@@ -183,7 +183,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 0;
 }
 
 .feynman {
@@ -216,7 +216,7 @@
   margin: 0;
 }
 
-.feynman-link {
+.feynman__link {
   position: absolute;
   right: 48px;
   top: 50%;
@@ -308,7 +308,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   align-self: flex-start;
   z-index: 0;
 }
@@ -336,13 +336,17 @@
   padding-inline-start: 0;
 }
 
+.footer__list-item {
+  list-style-type: none;
+}
+
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
   color: white;
-  list-style-type: none;
+
 }
 
 .footer__column_content_social {
@@ -367,6 +371,6 @@
   font-weight: normal;
 }
 
-/*div, h4, h3, h2, h1 {*/
-/*  border: 1px solid red;*/
-/*}*/
+div, h4, h3, h2, h1 {
+  border: 1px solid red;
+}
