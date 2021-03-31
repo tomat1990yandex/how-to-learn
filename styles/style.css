@@ -240,23 +240,10 @@
 .section-title_theme_dark {
   color: white;
   margin-top: 90px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .table_theme_dark {
@@ -371,6 +358,6 @@
   font-weight: normal;
 }
 
-div, h4, h3, h2, h1 {
-  border: 1px solid red;
-}
+/*div, h4, h3, h2, h1 {*/
+/*  border: 1px solid red;*/
+/*}*/
