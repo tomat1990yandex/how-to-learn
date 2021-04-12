@@ -53,6 +53,9 @@
 @import url(../blocks/content/kaufman/table_theme_dark/table_theme_dark.css);
 @import url(../blocks/content/kaufman/table_theme_dark/__cell_theme_dark/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__logo-zone/resources__logo_zone.css);
+@import url(../blocks/content/resources/__logo-zone/__logo/resources__logo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
