@@ -9,6 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*div, h4, h3, h2, h1, section {*/
-/*  border: 1px solid red;*/
-/*}*/
+div, h4, h3, h2, h1, section {
+  border: 1px solid red;
+}
